@@ -34,7 +34,7 @@ func loop() {
 	}
 	giu.SingleWindow().Layout(
 		giu.Child().Size(float32(WinWidth-16), 33).Layout(
-			giu.Label("FLEET"),
+			giu.Label("giu snippet"),
 		),
 		giu.Row(
 			giu.Child().Size(50, float32(WinHeight)-20-33).Border(true).Layout(
